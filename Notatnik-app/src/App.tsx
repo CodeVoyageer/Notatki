@@ -1,9 +1,13 @@
 import Sidebar from "./components/Sidebar";
-
+import Form from "./components/Form";
+import "./Scss/app.scss";
 function App() {
   return (
     <>
-      <Sidebar />
+      <div className="division">
+        <Sidebar />
+        <Form />
+      </div>
     </>
   );
 }
